@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import App from './App'
 import { applyMiddleware, createStore } from 'redux';
 import { Provider } from 'react-redux';
-import catsReducer from './reducers/catsReducer.js';
 import thunk from 'redux-thunk';
 import catsReducer from './reducers/catsReducer.js';
 
